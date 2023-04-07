@@ -3,6 +3,6 @@
     <title>Login Page</title>
   </head>
   <body>
-    <h1>Welcome Page</h1>
+    <h1>Welcome ${username}</h1>
   </body>
 </html>

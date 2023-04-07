@@ -23,6 +23,7 @@ public class LoginController {
     @RequestParam String password,
     ModelMap model) {
     if (this.authenticateService.authenticate(username, password)){
+      model.put("username", username);
       return "welcome";
     }
     model.put("errorMessage", "Invalid Credentials");
