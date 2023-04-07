@@ -23,3 +23,9 @@ In the login.jsp
   <input type="submit">
 </form>
 ```
+
+## Todo List
+- Todo.java (entity)
+- TodoService.java (service)
+- TodoController.java (controller)
+- todoList.jsp (front-page)
