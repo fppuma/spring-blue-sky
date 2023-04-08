@@ -63,7 +63,7 @@ Add these dependencies:
 </dependency>
 ```
 
-These jars come with css and js files
+These jars come with css and js files.  
 Location: ```META-INF/resources/```  
 Files:
 - ```webjars/bootstrap/5.1.3/css/bootstrap.min.css```
