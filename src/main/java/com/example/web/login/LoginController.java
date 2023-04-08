@@ -5,10 +5,12 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 import lombok.AllArgsConstructor;
 
 @Controller
+@SessionAttributes("username")
 @AllArgsConstructor
 public class LoginController {
   private AuthenticateService authenticateService;

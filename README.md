@@ -29,3 +29,20 @@ In the login.jsp
 - TodoService.java (service)
 - TodoController.java (controller)
 - todoList.jsp (front-page)
+
+Controller. Gets the list of todos and set in the model.
+```java
+@GetMapping("todo-list")
+public String list(ModelMap model) {
+  List<Todo> todos = this.todoService.findByUsername("admin");
+  model.put("todos", todos);
+  return "todoList";
+}
+```
+
+## Session Attributes
+Use this annotation at class level.
+```
+@SessionAttributes("username")
+```
+
