@@ -46,3 +46,26 @@ Use this annotation at class level.
 @SessionAttributes("username")
 ```
 
+## CSS and JavaScript
+Add these dependencies:
+
+```xml
+<dependency>
+  <groupId>org.webjars</groupId>
+  <artifactId>bootstrap</artifactId>
+  <version>5.1.3</version>
+</dependency>
+
+<dependency>
+  <groupId>org.webjars</groupId>
+  <artifactId>jquery</artifactId>
+  <version>3.6.0</version>
+</dependency>
+```
+
+These jars come with css and js files
+Location: ```META-INF/resources/```  
+Files:
+- ```webjars/bootstrap/5.1.3/css/bootstrap.min.css```
+- ```webjars/bootstrap/5.1.3/js/bootstrap.min.js```
+- ```webjars/jquery/3.6.0/jquery.min.js```
